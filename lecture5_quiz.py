@@ -45,7 +45,7 @@ else:
 # Q6 : Write a Python program to find those numbers which are divisible by 7. prompt user to input and display suitable answers.
 # Ans:
 num = int(input("Enter a number : "))
-for i in range(1, num):
+for i in range(1, num + 1):
     if i % 7 == 0:
         print(i, "is divisible by", 7)
 
