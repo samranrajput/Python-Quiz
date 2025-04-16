@@ -30,7 +30,6 @@ elif a > b:
 elif b > a:
     print("3")
 
-
 # Q5 : Print appropriate message if x is greater, lessor or equal to y. Take y as 100 and x as a user input.
 # Ans:
 x = int(input("Enter a number : "))
@@ -49,7 +48,7 @@ for i in range(1, num + 1):
     if i % 7 == 0:
         print(i, "is divisible by", 7)
 
-# Q7 :
+# Q7 : Write a program to prompt user to input a number and checks weather its even or odd.
 # Ans:
 num = int(input("Enter a number : "))
 if num % 2 == 0:
