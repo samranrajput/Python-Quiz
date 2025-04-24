@@ -1,4 +1,4 @@
-######## Lecture 5 Tasks ########
+######## Lecture 6 Tasks ########
 
 # Q1 : Write a program to display the first 10 natural numbers
 # Ans:
