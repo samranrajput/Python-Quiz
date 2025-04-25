@@ -57,21 +57,3 @@ while i < 6:
     else:
         print(i)
         i += 1
-
-# Q9 :Write a program that prints a diamond shape. This shape should have an upper half (from 1 to 5) and a lower half (from 5 to 1) with stars (*). The arrangement of spaces and stars on each line should be such that the shape looks like a diamond. The program should first print the upper half, then print the lower half. In the upper half, the number of stars increases, while in the lower half, they decrease. The example shape will look something like this:
-#         * 
-#        * * 
-#       * * * 
-#      * * * * 
-#     * * * * * 
-#    * * * * * * 
-#     * * * * * 
-#      * * * * 
-#       * * * 
-#        * * 
-#         *
-# Ans:
-for i in range(1, 6):
-        print(" " * (6 - i) + "* " * i)
-for i in range(6, 0, -1):
-        print(" " * (6 - i) + "* " * i)
